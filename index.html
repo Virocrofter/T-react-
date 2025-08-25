@@ -32,8 +32,33 @@
                 <li class="nav__link">
                     <a class="nav__link--anchor link__hover-effect" href="#">Login</a>
                 </li>
-                <li><a class="nav__link--primary" href="#">Sign up</a></li>
+                <li><a class=" nav__link--primary" href="#">Sign up</a></li>
             </ul>
+            <button class="btn__menu" onclick="openMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close " onclick="closeMenu()">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <ul class="menu__links">
+                    <li class="nav__list">
+                        <a href="#" class="menu__link">Blog</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#features" class="menu__link menu__hover-effect">Pricing</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="menu__link">Contact Us</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="menu__link">Login</a>
+                    </li>
+                    <li class="nav__list">
+                        <a href="#" class="menu__link--primary">Sign up</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -171,7 +196,7 @@
                             Learn More
                         </button>
                     </div>
-                    <div class="half img__set">
+                    <div class="half img__set img-mini">
                         <figure class="border">
                             <img class="section__img" src="./assets/section 1 image.png" alt="">
                         </figure>
@@ -273,7 +298,7 @@
                             Learn More
                         </button>
                     </div>
-                    <div class="half img__set">
+                    <div class="half img__set img-mini">
                         <img class="section__img" src="./assets/section 3 img.svg" alt="">
                     </div>
                 </div>
@@ -349,7 +374,7 @@
         <section id="testimonials">
             <div class="container">
                 <div class="row">
-                    <div class="half img__set m-r">
+                    <div class="half img__set m-r img-mini">
                         <img class="section__img" src="./assets/section 4 img.svg" alt="">
                     </div>
                     <div class="half m-r">
